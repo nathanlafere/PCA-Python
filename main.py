@@ -203,7 +203,6 @@ def diag_button(alt,mouse_b,mouse_p,val):
 def text_display(alt):
     global point
     global chose
-    print(chose)
     mouse_button = pygame.mouse.get_pressed()
     mouse_pos = pygame.mouse.get_pos()
     pygame.draw.rect(janela, palette[p_checked][1], direct_sizes[s_checked][7], False, 4)
@@ -306,7 +305,6 @@ def main_menu():
         pygame.draw.rect(janela, palette[p_checked][2], [0,0,220,600])
         pygame.draw.circle(janela, palette[p_checked][2], (119,150),215)
         pygame.draw.circle(janela, palette[p_checked][0], (287,490),165)
-        print(chose)
 
         #chamando os botões
 
@@ -478,8 +476,8 @@ s_checked = 1
 
 
 with open('saves.pkl','rb') as c:
-        save_list = pickle.load(c)
-        c.close()
+    save_list = pickle.load(c)
+    c.close()
 
 '''
 tamanho da janela = 0
