@@ -1,7 +1,7 @@
 
 plot_good = [(0,0,'Encerramento','Quatro anos se passaram e a cidade progrediu muito, e logo','você se tornou o herói da cidade, todos pretendem','seguir o seu exemplo e tornar o mundo um lugar melhor e mais limpo.'),
 (0,0,'Encerramento','Final Bom','','','Fim.')]
-plot_bad = [(0,1,'Encerramento','Quatro anos se passaram e a cidade não progrediu em nada','você ficou muito mal-visto pelos Vastayas que o culpam por suas decisões','e alguns até questionam sua integridade'),
+plot_bad = [(0,1,'Encerramento','Quatro anos se passaram e a cidade não progrediu em nada','você ficou muito mal visto pelos Vastayas que o culpam por suas decisões','e alguns até questionam sua integridade'),
 (0,1,'Encerramento','Final Ruim','','','Fim.')]
 plot_neutral = [(0,0,'Encerramento','Quatro anos se passaram e a cidade progrediu, porém muitas de suas ações foram questionaveis','e os Vastayas percebendo isso acreditam que seja melhor procurar outra pessoa.'),
 (0,0,'Encerramento','Final Neutro','','','Fim.')]
