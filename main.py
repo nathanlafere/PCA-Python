@@ -300,15 +300,14 @@ def main_menu():
         janela.fill(palette[p_checked][0])
         mouse_pos = pygame.mouse.get_pos()
         mouse_button = pygame.mouse.get_pressed()
-
         #desenhando o background
         pygame.draw.rect(janela, palette[p_checked][2], [0,0,220,600])
         pygame.draw.circle(janela, palette[p_checked][2], (119,150),215)
         pygame.draw.circle(janela, palette[p_checked][0], (287,490),165)
 
         #chamando os botões
-
-
+        logo = font_data.logo_font.render('Ecomundo',True,palette[p_checked][2])
+        janela.blit(logo,[350,100])
         button(60,80,[110,33],mouse_button,mouse_pos,diag_test,'Iniciar', b_select, 2)
         button(60,130,[110,33],mouse_button,mouse_pos,config_screen,'Configurações',b_select, 3)
         button(75,180,[80,25],mouse_button,mouse_pos,sys.exit,'Sair', b_select, 4)
@@ -373,7 +372,7 @@ def diag_test():
     global text_alt
     global chose
     global point
-    pygame.display.set_caption("Sustentabilidade")
+    pygame.display.set_caption("Ecomundo")
     pygame.display.set_mode(direct_sizes[s_checked][0])
     while True:
         for event in pygame.event.get():
